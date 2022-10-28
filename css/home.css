@@ -1,0 +1,154 @@
+.cabecera {
+	background: black;
+	border-bottom: 1px solid #222;
+	display: flex;
+	align-items: middle;
+	position: relative;
+	z-index: 11;
+	height: 65px;
+}
+
+.logo {
+	margin: 0;
+	position: relative;
+	z-index: 1;
+	height: 100%;
+	margin-right: 16px;
+}
+
+.logo-esquina {
+	background: url(../images/codepen-logo.svg) no-repeat 18px 20px;
+	background-size: 138px 27px;
+	width: 180px;
+	height: 65px;
+	border: 0;
+	outline: 0;
+}
+
+.seccion-inicio {
+    position: relative;
+    margin: 0 0 100px 0;
+}
+
+.menu-inicio {
+    background: radial-gradient(circle farthest-corner at 200px 0, #414141, #000);
+    background-position: top left;
+    position: relative;
+}
+
+.titular-inicio {
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-weight: 300
+}
+
+.descripcion-inicio {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #b3b3b3;
+    padding: 0.5rem 0;
+}
+
+.texto-inicio {
+    padding: 3rem;
+    max-width: 775px;
+    align-self: center;
+}
+
+.contenido-inicio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.captura-proyecto {
+    max-width: 650px;
+    align-self: flex-end;
+}
+
+.proyectos-texto-inicio {
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+
+.enlaces-texto-codepen-for {
+    display: flex;
+    position: relative;
+}
+
+.enlaces-texto-codepen-for > a {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    background: #373737;
+    border: 1px solid #676767;
+}
+
+.texto-codepen-for {
+    font-size: 1.4rem;
+    vertical-align: center;
+    font-family: 'Telefon', Sans-Serif;
+    text-transform: uppercase;
+}
+
+.principal-nav {
+	line-height: 65px;
+	position: relative;
+	font-size: 16px;
+	color: #acacac;
+	display: inline-block;
+	margin-right: 10px;
+	line-height: 80px;
+}
+
+.principal-nav a {
+    padding-right: 5px;
+}
+
+.pens::before {
+    content: 'EXPLORE';
+	position: absolute;
+	font-size: 0.83rem;
+	display: block;
+	line-height: 20px;
+	top: 12px;
+	color: #f4e17f;
+}
+
+.spark {
+    font-size: 0.8em;
+}
+
+.spark > a {
+    color: white;
+    padding-left: 20px;
+}
+
+.relleno {
+	flex: 3;
+}
+
+.lupa {
+    display:block;
+    color: rgb(104, 104, 104);
+    align-items: center;
+    padding: 0px 10px 0px 0px;
+    font-size: 2em;
+}
+
+.texto-negro {
+    color:black;
+}
+
+.flecha-verde {
+    color:green;
+}
+
+.p5left {
+    padding-left: 5px;
+}
+
+.margenes-botones {
+    display:flex;
+    padding: 10px;
+}

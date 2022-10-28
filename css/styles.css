@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+	line-height: 1.5;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+body {
+	color: white;
+}
+
+h1 {
+    line-height: 1.2;
+	margin: 0 0 10px 0;
+	font-weight: normal;
+	font-family: "Telefon Black", Sans-Serif;
+	line-height: 1.1;
+	font-size: 3rem;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+a {
+	text-decoration: none;
+	color: #76daff;
+}
+
+ul {
+	list-style: none;
+	height: 100%;
+}
+
+li {
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+    outline: 0;
+	border: 0;
+}
